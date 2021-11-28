@@ -16,9 +16,17 @@
 
 ### 3) p!ck 핵심 기능
 
-1. 취향에 따라 영화에 대한 이야기를 할 수 있는 공간 제공
+1. **바스켓** : 취향에 따라 여러 가지 영화를 담아 저장할 수 있는 공간
 
-2. 취향에 따라 영화 추천을 받을 수 있는 서비스 제공
+2. **테이스팅 홀** : 바스켓 내부에서 이야기를 할 수 있는 공간
+
+3. **추천** : 취향에 따라 영화/바스켓 추천을 받을 수 있는 서비스 제공
+
+4. **p!ck** : 마음에 드는 영화/바스켓을 프로필 페이지에 저장하고 그를 기반으로 추천 받음 
+
+5. **팔로우** : 서로 다른 유저를 팔로우하고, 팔로우한 유저의 취향 기반으로 추천 받음
+
+6. **그룹 관리/바스켓 초대** : 팔로우한 유저들을 그룹 별로 관리가 가능하고, 바스켓 생성시 비공개로 설정 후 그룹 별로 초대 기능 
 
    
 
@@ -27,9 +35,11 @@
 1. 최소 1개 이상의 방식으로 영화 정보 기반 추천 서비스 구성
 
 2. 영화 커뮤니티 기능 구현
-    1. 로그인한 사용자만 게시글 CRUD 가능하도록 구현
-    2. 생성 및 수정 시각 정보 포함
-    
+
+    - 로그인한 사용자만 게시글 CRUD 가능하도록 구현
+
+    - 생성 및 수정 시각 정보 포함
+
 3. 관리자(admin) 구현
 
 4. 영화 데이터베이스 50개 이상 구성
@@ -43,14 +53,14 @@
 - 영화에 대한 이야기는 나누고 싶지만 리뷰를 작성하기엔 부담스러웠던 사람들을 위한 '취향 존중' 영화 커뮤니티
 - 취향이 같은 사람들과 이야기를 나누고(keeping), 나의 영화 취향을 찾아가는(seeking) 여정
 
-### 2) 팀원 및 역할 분배
+### 3) 팀원 및 역할 분배
 
 | 담당자 | 메인 담당 | 서브 담당 | 사용언어 | 프레임워크 | 툴 |
 | --- | --- | --- | --- | --- | --- |
 | 한지윤 | Project management<br />UI/UX design<br />Modeling<br />Website construction | API management<br />Recommendation algorithm<br />Database management | - Python<br />- JavaScript<br />- HTML/CSS | - Django REST API<br />- Vue.js<br />- Node.js<br />- BootStrap<br />- SQLite |- GitLab<br />- Figma<br />- ERD Cloud<br />- Slack<br />- Notion|
-| 김기솔 |API management<br />Recommendation algorithm<br />Database management|UI/UX design<br />Modeling<br />Website construction|- Python<br />- JavaScript<br />- HTML/CSS|- Django REST API<br />- Vue.js<br />- Node.js<br />- BootStrap<br />- SQLite|- GitLab<br />- Figma<br />- ERD Cloud<br />- Slack<br />- Notion|
+| 김기솔 |API management<br />Recommendation algorithm<br />Database management<br />Website construction|UI/UX design<br />Modeling<br />Website construction|- Python<br />- JavaScript<br />- HTML/CSS|- Django REST API<br />- Vue.js<br />- Node.js<br />- BootStrap<br />- SQLite|- GitLab<br />- Figma<br />- ERD Cloud<br />- Slack<br />- Notion|
 
-### 3) 프로젝트 진행 프로세스
+### 4) 프로젝트 진행 프로세스
 
 1. 아이디어 회의, 컨셉 방향 설정
 
@@ -75,9 +85,6 @@
 ### 1) 데이터 모델링 (ERD)
 
 - 1차로 작성한 ERD에서 구현하며 어려움이 있거나, 핵심 기능이 아닌 테이블인 경우 수정/삭제하여 진행
-- **1차 ERD**
-
-<img src="README.assets/image-20211125232323816.png" alt="image-20211125232323816" style="zoom:50%;" />
 
 - **최종 ERD**
 
@@ -177,7 +184,7 @@
 
 - 4가지 기준으로 영화를 랜덤 추천
     - **연령과 성별** - 유저와 성별이 같고 연령대가 유사한 유저가 좋아한
-    - **좋아한 영화** - 유저가 좋아요를 누른 영화가 포함돼 있는
+    - **좋아한 바스켓** - 유저가 좋아요를 누른 바스켓 안에 있는
     - **좋아한 영화의 장르** - 유저가 좋아요를 누른 영화의 장르 중
     - **팔로우한 사용자** - 유저가 팔로우한 사용자가 좋아하는
 
