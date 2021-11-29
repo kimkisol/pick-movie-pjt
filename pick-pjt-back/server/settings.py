@@ -154,7 +154,7 @@ AUTH_USER_MODEL = 'accounts.User'
 
 import datetime
 JWT_AUTH = {
-    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(minutes=20),
 }
 
 CORS_ALLOW_ALL_ORIGINS = True

@@ -267,7 +267,7 @@ def movie_recommend_friends(request):
 @api_view(['POST'])
 def tmdb_movie(request):
     TMDB_API_KEY = config("TMDB_API_KEY")
-    for page in range(1, 101):
+    for page in range(101, 301):
         url = f'https://api.themoviedb.org/3/movie/popular?api_key={TMDB_API_KEY}&language=ko&page={page}'
         request = requests.get(url).json()
         for result in request.get('results'):
