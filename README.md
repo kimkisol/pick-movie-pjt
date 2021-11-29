@@ -25,7 +25,7 @@
 
 ### 4) 배포 주소
 
-- https://pickyourtaste.click/
+:apple: https://pickyourtaste.click/
 
 
 
@@ -56,8 +56,8 @@
 
 | 담당자 | 메인 담당 | 서브 담당 | 사용언어 | 프레임워크 | 툴 |
 | --- | --- | --- | --- | --- | --- |
-| 한지윤 | Project management<br />UI/UX design<br />Modeling<br />Website construction | API management<br />Recommendation algorithm<br />Database management | - Python<br />- JavaScript<br />- HTML/CSS | - Django REST API<br />- Vue.js<br />- Node.js<br />- BootStrap<br />- SQLite |- GitLab<br />- Figma<br />- ERD Cloud<br />- Slack<br />- Notion|
-| 김기솔 |API management<br />Recommendation algorithm<br />Database management<br />Website construction|UI/UX design<br />Modeling<br />Website construction|- Python<br />- JavaScript<br />- HTML/CSS|- Django REST API<br />- Vue.js<br />- Node.js<br />- BootStrap<br />- SQLite|- GitLab<br />- Figma<br />- ERD Cloud<br />- Slack<br />- Notion|
+| 한지윤 | Project management<br />UI/UX design<br />Modeling<br />Website construction | API management<br />Recommendation algorithm<br />Database management | - Python<br />- JavaScript<br />- HTML/CSS | - Django REST API<br />- Vue.js<br />- Node.js<br />- BootStrap<br />- SQLite |- AWS ec2<br />- GitLab<br />- Figma<br />- ERD Cloud<br />- Slack<br />- Notion|
+| 김기솔 |Website construction<br />API management<br />Recommendation algorithm<br />Database management<br />|UI/UX design<br />Modeling<br />|- Python<br />- JavaScript<br />- HTML/CSS|- Django REST API<br />- Vue.js<br />- Node.js<br />- BootStrap<br />- SQLite|- AWS ec2<br />- GitLab<br />- Figma<br />- ERD Cloud<br />- Slack<br />- Notion|
 
 ### 4) 프로젝트 진행 프로세스
 
