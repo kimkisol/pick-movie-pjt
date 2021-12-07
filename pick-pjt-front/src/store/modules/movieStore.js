@@ -179,6 +179,7 @@ const movieStore = {
       // console.log(document.location.href.split("0/"))
       const headers = getters.config
       const movie_pk = selectedMovie.id
+      console.log('document.location.href.split("0/")[1]', document.location.href)
       const location = document.location.href.split("0/")[1]
       axios({
         method: 'get',

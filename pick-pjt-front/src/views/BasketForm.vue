@@ -82,11 +82,11 @@
     <div>
       <div class="input-signup">
         <div class="d-flex" align="left">
-          <label for="pickedMovies" class="d-inline-block">선택 영화 목록</label>
+          <label for="pickedMovie" class="d-inline-block">선택 영화 목록</label>
           <p class="d-inline-block ms-2 mt-1 mb-0" style="font-size:0.8rem; color:#999999;">아래 검색창을 통해 4개 이상의 영화를 추가해주세요.</p>
         </div>
         <b-form-tags
-          input-id="pickedMovies"
+          input-id="pickedMovie"
           v-model="pickedMovieTitleList"
           tag-variant="secondary"
           tag-pills
