@@ -101,14 +101,6 @@
 
 <img src="README.assets/image-20211125232402655.png" alt="image-20211125232402655" style="zoom:50%;" />
 
-3. **바스켓 생성 폼**
-
-<img src="README.assets/image-20211125232423582.png" alt="image-20211125232423582" style="zoom:50%;" />
-
-4. **영화 디테일**
-
-<img src="README.assets/image-20211125232439726.png" alt="image-20211125232439726" style="zoom:50%;" />
-
 
 
 ## 4. 핵심 기능
