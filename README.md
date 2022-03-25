@@ -91,16 +91,8 @@
 
 ### 2) UI 와이어프레임 (Figma)
 
-- Figma를 이용해 디자인 초안을 구성하였으며 README에는 총 19개의 페이지 중 4개를 수록
-
-1. **메인 페이지**
-
-<img src="README.assets/image-20211125232350477.png" alt="image-20211125232350477" style="zoom:50%;" />
-
-2. **바스켓 상세 페이지**
-
-<img src="README.assets/image-20211125232402655.png" alt="image-20211125232402655" style="zoom:50%;" />
-
+- Figma를 이용해 디자인 초안을 구성
+https://www.figma.com/file/wwrEcsmhpR67HE2C0xor9y/p!ck
 
 
 ## 4. 핵심 기능
